@@ -15,7 +15,7 @@
 }
 
 
-Console.Write("Введите элементы массива разделив их запятой и  пробелом: ");
+Console.Write("Введите элементы массива разделив их запятой и пробелом: ");
 string text = Console.ReadLine() ?? String.Empty;
 string[] textArray = text.Split(", ");
 string[] resultArray = SearchElemets(textArray);
