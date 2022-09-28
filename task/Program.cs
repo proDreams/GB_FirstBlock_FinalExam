@@ -6,10 +6,7 @@
     {
         if (array[i].Length <= 3)
         {
-            if (result.Length <= j)
-            {
-                Array.Resize(ref result, result.Length + 1);
-            }
+            Array.Resize(ref result, result.Length + 1);
             result[j] = array[i];
             j++;
         }
